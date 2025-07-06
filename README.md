@@ -1,3 +1,18 @@
+# ALX Listing App
+
+The ALX Listing App project aims to scaffold and lay the foundational structure for a modern Airbnb clone. This initial milestone focuses on setting up a well-organized and scalable codebase using Next.js, TypeScript, TailwindCSS, and ESLint. By establishing a clean folder structure, reusable components, and adhering to best practices, the project ensures a solid starting point for building a dynamic, responsive, and user-friendly property listing page.
+
+## Brief Explanation of my Project Folder
+
+- **components/**: This file will define a reusable component that will be used across the project to display information about various properties i.e Card/Button component and as many reusable componenents that might be required.
+
+- **interfaces/**: Define all TypeScript interfaces related to the project. Start by creating placeholder interfaces for CardProps and ButtonProps.
+
+- **constants**/: Set up constants to store any reusable data or strings such as API URLs, configuration settings, or UI text
+
+- **public/assets**: place the necessary images and SVG files that will be used across the project (such as placeholder property images).
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
 
 ## Getting Started
