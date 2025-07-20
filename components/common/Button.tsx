@@ -1,17 +1,9 @@
 import React from "react"
+import { ButtonProps } from "@/interfaces"
 
-interface ButtonProps {
-    children: React.ReactNode
-    label?: string
-    onClick?: () => void
-    variant?: 'primary' | 'secondary'
-}
-
-const Button: React.FC<ButtonProps> = ({}) => {
+const Button: React.FC<ButtonProps> = ({children, label, onClick, variant}) => {
     return (
-       <button className="">
-
-       </button>
+       <button onClick={onClick} className="bg-blue-500 text-white rounded-full">{children}</button>
     )
 }
 export default Button
