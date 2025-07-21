@@ -31,10 +31,7 @@ export const TAGS = {
   TOP_VILLA: "Top Villa",
 };
 
-export const bgImage = {
-  hero: "bg-[url('/assets/image 3.png)]",
-  about: "bg-[url('/assets/image 4.png)]",
-}
+
 
 export const FILTERS = [
     "Top Villa",
@@ -55,39 +52,63 @@ export const sortOptions = [
 
 export const PROPERTYLISTINGSAMPLE: PROPERTYLISTINGSAMPLEProps[]  = [
     {
-        name: "Entire cabin",
-        image: "/assets/images/image-2.png",
-        price: 62,
-        rating: 4.76
-    },
-    {
-        name: "Modern Apartment",
-        image: "/assets/images/image-3.png",
+        name: "Villa Arrecife Beach House",
+        image: "/assets/List 1.png",
         price: 120,
         rating: 4.9
     },
     {
-        name: "Cozy Studio",
-        image: "/assets/images/image-4.png",
+        name: "Entire cabin",
+        image: "/assets/image 3.png",
+        price: 62,
+        rating: 4.76
+    },
+    {
+        name: "Earthen Home",
+        image: "/assets/image 4.png",
+        price: 120,
+        rating: 4.9
+    },
+    {
+        name: "Private Room",
+        image: "/assets/List 4.png",
         price: 80,
         rating: 4.5
     },
     {
-        name: "Cozy Studio",
-        image: "/assets/images/image-5.png",
-        price: 80,
+        name: "Gokce Gemile Estate",
+        image: "/assets/image 6.png",
+        price: 390,
         rating: 4.5
     },
     {
-        name: "Cozy Studio",
-        image: "/assets/images/image-6.png",
-        price: 80,
+        name: "Luxury 1000 sqm Villa",
+        image: "/assets/image 7.png",
+        price: 1400,
         rating: 4.5
     },
     {
-        name: "Cozy Studio",
-        image: "/assets/images/image-7.png",
-        price: 80,
+        name: "Palais Hassoun Marrakech",
+        image: "/assets/image 8.png",
+        price:  4500,
+        rating: 4.5
+    },
+    {
+        name: "Villa Lamp",
+        image: "/assets/image 9.png",
+        price: 2500,
+        rating: 4.5
+    },
+    {
+        name: "Villa I 'oui d' or",
+        image: "/assets/List 9.png",
+        price: 3450,
+        rating: 4.5
+    },
+    {
+        name: "Designer Villa, pool not...",
+        image: "/assets/List 10.png",
+        price: 4535,
         rating: 4.5
     }
 ];

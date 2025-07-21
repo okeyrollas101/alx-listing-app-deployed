@@ -1,2 +1,9 @@
 @import "tailwindcss";
 
+.bg-hero {
+  background-image: url('/assets/Image 1.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+

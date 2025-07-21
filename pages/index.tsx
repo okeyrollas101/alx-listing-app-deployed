@@ -3,11 +3,12 @@ import Filters from "@/components/common/Filters";
 import PropertyCard from "@/components/common/PropertyCard";
 import { PROPERTYLISTINGSAMPLE } from '@/constants'
 
+
 const Home: NextPage = () => {
   return (
     <>
     <section
-      className="flex flex-col items-center justify-center border-2 border-gray-100 rounded-2xl w-[1440px] h-[500px] mx-auto my-4 bg-hero"
+      className={`flex flex-col items-center justify-center border-2 border-gray-100 rounded-2xl w-[1440px] h-[500px] mx-auto my-4 bg-hero`}
     >
         <h1 className="font-medium text-6xl text-white">
           Hello! Find your favorite place here!

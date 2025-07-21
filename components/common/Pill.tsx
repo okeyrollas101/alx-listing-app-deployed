@@ -21,3 +21,5 @@ const Pill: React.FC<PillProps> = ({ label, isActive, onClick }) => {
 };
 
 export default Pill;
+
+ 
