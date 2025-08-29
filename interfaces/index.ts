@@ -26,6 +26,10 @@ export interface PropertyCardProps {
     property : PROPERTYLISTINGSAMPLEProps
 }
 
+export interface PropertyDetailProps {
+    property: PropertyProps
+}
+
 export interface PropertyProps {
     name: string;
     address: {
