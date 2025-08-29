@@ -24,6 +24,7 @@ export interface PROPERTYLISTINGSAMPLEProps {
 
 export interface PropertyCardProps {
     property : PROPERTYLISTINGSAMPLEProps
+    key: number
 }
 
 export interface PropertyDetailProps {
