@@ -1,11 +1,6 @@
 import { PROPERTYLISTINGSAMPLEProps } from "@/interfaces";
 // API Endpoints
-export const API_URLS = {
-  GET_PROPERTIES: "/api/properties",        // Endpoint to fetch all property listings
-  GET_PROPERTY_BY_ID: "/api/properties/:id", // Endpoint to fetch a specific property
-  BOOK_PROPERTY: "/api/book",               // Endpoint to book a property
-  CANCEL_BOOKING: "/api/cancel",            // Endpoint to cancel a booking
-};
+export const API_BASE_URL = "https://api.alx-listing-app.com/v1";
 
 // UI Text
 export const UI_TEXT = {
@@ -31,6 +26,11 @@ export const TAGS = {
   TOP_VILLA: "Top Villa",
 };
 
+export const bgImage = {
+  hero: "bg-[url('/assets/image 1.jpg)]",
+  about: "bg-[url('/assets/image 2.jpg)]",
+}
+
 
 
 export const FILTERS = [
@@ -52,64 +52,84 @@ export const sortOptions = [
 
 export const PROPERTYLISTINGSAMPLE: PROPERTYLISTINGSAMPLEProps[]  = [
     {
+        id: 1,
         name: "Villa Arrecife Beach House",
         image: "/assets/List 1.png",
         price: 120,
-        rating: 4.9
+        rating: 4.9,
+        description: "A long way from home"
     },
     {
+        id: 2,
         name: "Entire cabin",
         image: "/assets/image 3.png",
         price: 62,
-        rating: 4.76
+        rating: 4.76,
+        description: "A long way from home"
     },
     {
+        id: 3,
         name: "Earthen Home",
         image: "/assets/image 4.png",
         price: 120,
-        rating: 4.9
+        rating: 4.9,
+        description: "A long way from home"
     },
     {
+        id: 4,
         name: "Private Room",
         image: "/assets/List 4.png",
         price: 80,
-        rating: 4.5
+        rating: 4.5,
+        description: "A long way from home"
     },
     {
+        id: 5,
         name: "Gokce Gemile Estate",
         image: "/assets/image 6.png",
         price: 390,
-        rating: 4.5
+        rating: 4.5,
+        description: "A long way from home"
     },
     {
+        id: 6,
         name: "Luxury 1000 sqm Villa",
         image: "/assets/image 7.png",
         price: 1400,
-        rating: 4.5
+        rating: 4.5,
+        description: "A long way from home"
     },
     {
+        id: 7,
         name: "Palais Hassoun Marrakech",
         image: "/assets/image 8.png",
         price:  4500,
-        rating: 4.5
+        rating: 4.5,
+        description: "A long way from home"
     },
     {
+        id: 8,
         name: "Villa Lamp",
         image: "/assets/image 9.png",
         price: 2500,
-        rating: 4.5
+        rating: 4.5,
+        description: "A long way from home"
     },
     {
+        id: 9,
         name: "Villa I 'oui d' or",
         image: "/assets/List 9.png",
         price: 3450,
-        rating: 4.5
+        rating: 4.5,
+        description: "A long way from home"
     },
     {
+        id: 10,
         name: "Designer Villa, pool not...",
         image: "/assets/List 10.png",
         price: 4535,
-        rating: 4.5
+        rating: 4.5,
+        description: "A long way from home"
     }
 ];
 

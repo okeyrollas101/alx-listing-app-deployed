@@ -10,6 +10,7 @@ export interface ButtonProps {
     label?: string
     onClick?: () => void
     variant?: 'primary' | 'secondary'
+    type?: "button" | "submit" | "reset";
 }
 
 
@@ -23,8 +24,8 @@ export interface PROPERTYLISTINGSAMPLEProps {
 }
 
 export interface PropertyCardProps {
-    property : PROPERTYLISTINGSAMPLEProps
-    key: number
+    property : PropertyProps,
+    key: string | number,
 }
 
 export interface PropertyDetailProps {
@@ -32,20 +33,53 @@ export interface PropertyDetailProps {
 }
 
 export interface PropertyProps {
-    name: string;
-    address: {
-      state: string;
-      city: string;
-      country: string;
+  id?: string;
+  name: string;
+  address: {
+    state: string;
+    city: string;
+    country: string;
   };
-   rating: number;
-   category: string[];
-   price: number;
-    offers: {
+  rating: number;
+  category: string[];
+  price: number;
+  offers: {
     bed: string;
     shower: string;
     occupants: string;
   };
-   image: string;
-   discount?: string;
+  image: string;
+  discount?: string;
+  description?: string;
+}
+
+export interface BookingDetails {
+  propertyName?: string;
+  checkin: string;
+  checkout: string;
+  totalNights: number;
+  pricePerNight: number;
+  bookingFee: number;
+  customer: {
+    firstName: string;
+    lastName: string;
+    email: string;
+    phone: string;
+    address: {
+      street: string;
+      city: string;
+      state: string;
+      zip: string;
+      country: string;
+    };
+  };
+  payment: {
+    cardNumber: string;
+    expiry: string;
+    cvv: string;
+  };
+}
+
+export interface BookingDetailsProps {
+  bookingDetails: BookingDetails;
 }
